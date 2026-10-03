@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build
+.next/
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Docker / local data
+postgres_data/
+redis_data/
+minio_data/
+
+# Secrets
+*.pem
+*.key
